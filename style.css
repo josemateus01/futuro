@@ -1,4 +1,37 @@
-header{
+* {
+    margin: 0;
+    padding: 0;
+}
+
+cabeçalho{
     background-color: blue;
     color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 24px  0;
+} 
+.imagem-principal{
+    width: 30%;
 }
+
+  .lista-principal{
+    display: inline-block;
+    margin: 0 16px;
+    font-size: 24px;
+
+    }
+    .futuro{
+        background-color: black;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 24px 0;
+    }
+    div-conteudo{
+        width: 35%;
+    }
+    .titulo{
+        padding: 24px 0;
+    }
+
